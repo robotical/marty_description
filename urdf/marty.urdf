@@ -19,6 +19,10 @@
         <color rgba="0.07 0.52 .625 1"/>
       </material>
     </collision>
+    <inertial>
+      <mass value="0.0431875708942"/>
+      <inertia ixx="4.97059564476e-05" ixy="-2.28544753926e-07" ixz="-1.40007333364e-07" iyy="8.56739664811e-05" iyz="-1.59554146973e-05" izz="8.17960305589e-05"/>
+    </inertial>
   </link>
   <joint name="face_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.047 0.0015 0.075"/>
@@ -42,6 +46,10 @@
       <material name="blue"/>
       <origin rpy="1.57075 0 1.57075" xyz="-0.003 -0.0655 -0.075"/>
     </collision>
+    <inertial>
+      <mass value="0.035812465797"/>
+      <inertia ixx="3.74735130312e-05" ixy="-3.01217923192e-07" ixz="5.8918122486e-07" iyy="6.62305154017e-05" iyz="-1.12675226754e-05" izz="6.31049498457e-05"/>
+    </inertial>
   </link>
   <joint name="rpi_camera_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.012 0 0.002"/>
@@ -63,6 +71,10 @@
       <material name="blue"/>
       <origin rpy="1.57075 0 0" xyz="0 0.0125 0"/>
     </collision>
+    <inertial>
+      <mass value="0.00335583956832"/>
+      <inertia ixx="4.56680601283e-07" ixy="-1.82638585507e-09" ixz="2.4822019972e-13" iyy="3.47053506677e-07" iyz="4.33591149128e-13" izz="1.94087834308e-07"/>
+    </inertial>
   </link>
   <joint name="left_side_panel_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.006 0.0575 0.0375"/>
@@ -88,6 +100,10 @@
       </material>
       <origin rpy="1.57075 0 -1.57075" xyz="0.0437 0.005 -0.0375"/>
     </collision>
+    <inertial>
+      <mass value="0.00936725197621"/>
+      <inertia ixx="4.43457372781e-06" ixy="4.8764073186e-08" ixz="1.006807847e-09" iyy="1.78588438532e-06" iyz="-1.34925194181e-08" izz="2.77914313841e-06"/>
+    </inertial>
   </link>
   <joint name="left_arm_servo_gear_joint" type="revolute">
     <origin rpy="-1.57 0.085 0" xyz="0 0.002 0.014"/>
@@ -111,6 +127,10 @@
       <material name="yellow"/>
       <origin rpy="0 1.57 0" xyz="-0.02 -0.02 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.00451658974503"/>
+      <inertia ixx="8.45258402702e-07" ixy="3.89878748552e-12" ixz="-5.06303499126e-12" iyy="4.31213841738e-07" iyz="-1.85517877601e-11" izz="4.42150240321e-07"/>
+    </inertial>
   </link>
   <joint name="left_arm_gear_joint" type="revolute">
     <origin rpy="-1.57075 0 0" xyz="0 0 -0.021"/>
@@ -135,6 +155,10 @@
       <material name="yellow"/>
       <origin rpy="0 0 0" xyz="-0.017 -0.017 -0.002"/>
     </collision>
+    <inertial>
+      <mass value="0.00323099565122"/>
+      <inertia ixx="2.492965144e-07" ixy="1.23836533244e-12" ixz="-6.03894351886e-13" iyy="2.46495161637e-07" iyz="2.64302372406e-13" izz="4.74742252404e-07"/>
+    </inertial>
   </link>
   <joint name="left_arm_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -156,6 +180,10 @@
       <material name="yellow"/>
       <origin rpy="-0.35 0 3.1415" xyz="0.0125 0.0585 0.02"/>
     </collision>
+    <inertial>
+      <mass value="0.00505055186643"/>
+      <inertia ixx="2.06530964036e-06" ixy="-2.67528604539e-13" ixz="1.96764738554e-13" iyy="2.53839093691e-07" iyz="-6.61720770481e-08" izz="2.23986064809e-06"/>
+    </inertial>
   </link>
   <joint name="left_hand_joint" type="fixed">
     <origin rpy="0.35 0 0" xyz="0 0.058 0.03"/>
@@ -177,6 +205,10 @@
       <material name="yellow"/>
       <origin rpy="0 0 3.1415" xyz="0.013125 0.0189 -0.006"/>
     </collision>
+    <inertial>
+      <mass value="0.00320574793227"/>
+      <inertia ixx="1.93993825753e-07" ixy="-7.17394338343e-15" ixz="-4.80502762853e-15" iyy="3.13890850724e-07" iyz="5.35587897677e-10" izz="3.87233963948e-07"/>
+    </inertial>
   </link>
   <joint name="right_side_panel_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.006 -0.055 0.0375"/>
@@ -202,6 +234,10 @@
       </material>
       <origin rpy="1.57075 0 1.57075" xyz="-0.0437 -0.0075 -0.0375"/>
     </collision>
+    <inertial>
+      <mass value="0.00936725197621"/>
+      <inertia ixx="4.43457372781e-06" ixy="4.8764073186e-08" ixz="1.006807847e-09" iyy="1.78588438532e-06" iyz="-1.34925194181e-08" izz="2.77914313841e-06"/>
+    </inertial>
   </link>
   <joint name="right_arm_servo_gear_joint" type="revolute">
     <origin rpy="1.57075 -3.055 0" xyz="0 -0.0035 0.014"/>
@@ -225,6 +261,10 @@
       <material name="yellow"/>
       <origin rpy="0 1.57075 0" xyz="-0.02 -0.02 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.00451658974503"/>
+      <inertia ixx="8.45258402702e-07" ixy="3.89878748552e-12" ixz="-5.06303499126e-12" iyy="4.31213841738e-07" iyz="-1.85517877601e-11" izz="4.42150240321e-07"/>
+    </inertial>
   </link>
   <joint name="right_arm_gear_joint" type="revolute">
     <mimic joint="right_arm_servo_gear_joint" multiplier="-1.1875" offset="0"/>
@@ -249,6 +289,10 @@
       <material name="yellow"/>
       <origin rpy="0 0 0" xyz="-0.017 -0.017 -0.002"/>
     </collision>
+    <inertial>
+      <mass value="0.00323099565122"/>
+      <inertia ixx="2.492965144e-07" ixy="1.23836533244e-12" ixz="-6.03894351886e-13" iyy="2.46495161637e-07" iyz="2.64302372406e-13" izz="4.74742252404e-07"/>
+    </inertial>
   </link>
   <joint name="right_arm_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -270,6 +314,10 @@
       <material name="yellow"/>
       <origin rpy="-0.35 0 3.1415" xyz="0.0125 0.0585 0.02"/>
     </collision>
+    <inertial>
+      <mass value="0.00505055186643"/>
+      <inertia ixx="2.06530964036e-06" ixy="-2.67528604539e-13" ixz="1.96764738554e-13" iyy="2.53839093691e-07" iyz="-6.61720770481e-08" izz="2.23986064809e-06"/>
+    </inertial>
   </link>
   <joint name="right_hand_joint" type="fixed">
     <origin rpy="0.35 0 0" xyz="0 0.058 0.03"/>
@@ -291,6 +339,10 @@
       <material name="yellow"/>
       <origin rpy="0 0 3.1415" xyz="0.013125 0.0189 -0.006"/>
     </collision>
+    <inertial>
+      <mass value="0.00320574793227"/>
+      <inertia ixx="1.93993825753e-07" ixy="-7.17394338343e-15" ixz="-4.80502762853e-15" iyy="3.13890850724e-07" iyz="5.35587897677e-10" izz="3.87233963948e-07"/>
+    </inertial>
   </link>
   <joint name="right_eye_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0.079 -0.02425 -0.0275"/>
@@ -319,6 +371,10 @@
       </material>
       <origin rpy="1.57 -0.06 -1.57" xyz="0.0037 0.022 -0.025"/>
     </collision>
+    <inertial>
+      <mass value="0.00584303331449"/>
+      <inertia ixx="1.27255655913e-06" ixy="1.01659389995e-07" ixz="1.09134753513e-09" iyy="7.65001465586e-07" iyz="4.20395996237e-09" izz="2.02050179658e-06"/>
+    </inertial>
   </link>
   <joint name="left_eye_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0.079 0.02125 -0.0275"/>
@@ -342,6 +398,10 @@
       <material name="white"/>
       <origin rpy="1.57 -0.02 1.57" xyz="0 -0.023 -0.0238"/>
     </collision>
+    <inertial>
+      <mass value="0.00545476494398"/>
+      <inertia ixx="1.29330365275e-06" ixy="7.11903647061e-08" ixz="-1.39415293241e-09" iyy="7.52008809773e-07" iyz="-1.14570374905e-08" izz="2.03406910527e-06"/>
+    </inertial>
   </link>
   <joint name="left_hip_servo_holder_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.0075 0.01825 -0.015"/>
@@ -363,6 +423,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 3.1415" xyz="0.0282 -0.00825 -0.0095"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="left_hip_servo_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.0075 0.03825 -0.015"/>
@@ -384,6 +448,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 0" xyz="-0.0258 0.0078   -0.0095"/>
     </collision>
+    <inertial>
+      <mass value="0.00534969344801"/>
+      <inertia ixx="4.28915289089e-07" ixy="1.72442164411e-08" ixz="1.21176871367e-08" iyy="1.47246096991e-06" iyz="2.81263965619e-08" izz="1.66008202818e-06"/>
+    </inertial>
   </link>
   <joint name="left_hip_link1_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0.00925 0 0.00376"/>
@@ -408,6 +476,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 0" xyz="-0.003 -0.0121 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="left_hip_link2_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.0069 0 0.00376"/>
@@ -432,6 +504,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 0" xyz="0.003 -0.0121 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="left_hip_link3_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.007 0 0.00376"/>
@@ -456,6 +532,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 3.1415" xyz="0.0031 0.0116 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="left_hip_servo_link_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0.00925 0 0.00376"/>
@@ -479,6 +559,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 3.1415" xyz="-0.005 0.0116 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.0022230447944"/>
+      <inertia ixx="3.6555778165e-08" ixy="-7.71664215792e-09" ixz="5.11021747293e-09" iyy="5.78426953066e-07" iyz="-4.996948437e-09" izz="5.54274196377e-07"/>
+    </inertial>
   </link>
   <joint name="left_hip_crossbrace1_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.01 -0.025"/>
@@ -500,6 +584,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 1.57" xyz="0.0031 -0.0204 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="left_hip_crossbrace2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.01 -0.025"/>
@@ -521,6 +609,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 -1.57" xyz="-0.0031 0.0199 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="left_twist_servo_holder1_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 0 -0.05"/>
@@ -545,6 +637,10 @@
       <material name="blue"/>
       <origin rpy="1.57 3.1415 0" xyz="0.0188 0.00785 0.013"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="left_twist_servo_holder2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.02 0"/>
@@ -566,6 +662,10 @@
       <material name="blue"/>
       <origin rpy="-1.57 0 0" xyz="-0.035225 -0.00825 0.013"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="left_twist_shaft_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.009 -0.01 -0.0164"/>
@@ -593,6 +693,10 @@
       </material>
       <origin rpy="1.57 0 -1.57" xyz="0.01635 0.01325 0"/>
     </collision>
+    <inertial>
+      <mass value="0.00220748020606"/>
+      <inertia ixx="1.67451139919e-07" ixy="-3.63986353301e-09" ixz="-1.40695005264e-09" iyy="2.61155786728e-07" iyz="-2.86650798507e-09" izz="1.31389915947e-07"/>
+    </inertial>
   </link>
   <joint name="left_knee_servo_holder_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.01 0.008 -0.0062"/>
@@ -614,6 +718,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 -1.57" xyz="0.00855 0.01885 -0.0133"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="left_knee_servo_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.0099 0.008 -0.0062"/>
@@ -635,6 +743,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 1.57" xyz="-0.0075825 -0.0351 -0.0133"/>
     </collision>
+    <inertial>
+      <mass value="0.00534969344801"/>
+      <inertia ixx="4.28915289089e-07" ixy="1.72442164411e-08" ixz="1.21176871367e-08" iyy="1.47246096991e-06" iyz="2.81263965619e-08" izz="1.66008202818e-06"/>
+    </inertial>
   </link>
   <joint name="left_knee_link1_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -659,6 +771,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 1.57" xyz="0.0123 -0.003 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="left_knee_link2_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 -0.01615 0"/>
@@ -683,6 +799,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 1.57" xyz="0.0123 0.00291 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="left_knee_link3_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.005 -0.01615 0"/>
@@ -707,6 +827,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 -1.57" xyz="-0.0064 0.00291 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="left_knee_servo_link_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.005 0 0"/>
@@ -730,6 +854,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 -1.57" xyz="-0.0064 -0.005 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.0022230447944"/>
+      <inertia ixx="3.6555778165e-08" ixy="-7.71664215792e-09" ixz="5.11021747293e-09" iyy="5.78426953066e-07" iyz="-4.996948437e-09" izz="5.54274196377e-07"/>
+    </inertial>
   </link>
   <joint name="left_knee_crossbrace1_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.015 0.01 -0.025"/>
@@ -751,6 +879,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 -3.1415" xyz="0.02075 -0.0067 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="left_knee_crossbrace2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.015 -0.01 -0.025"/>
@@ -772,6 +904,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 0" xyz="-0.01925 0.0067 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="left_foot_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 0 -0.05"/>
@@ -796,6 +932,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 3.1415" xyz="0.0635 -0.0306 -0.00725"/>
     </collision>
+    <inertial>
+      <mass value="0.0173122727319"/>
+      <inertia ixx="4.17884101816e-06" ixy="2.47751839763e-09" ixz="4.25331355401e-10" iyy="1.49537678998e-05" iyz="3.71899668287e-08" izz="1.12023343523e-05"/>
+    </inertial>
   </link>
   <joint name="right_hip_servo_holder_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.0075 -0.03825 -0.015"/>
@@ -817,6 +957,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 3.1415" xyz="0.0282 -0.00825 -0.0095"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="right_hip_servo_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.0075 -0.01825 -0.015"/>
@@ -838,6 +982,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 0" xyz="-0.0258 0.0078   -0.0095"/>
     </collision>
+    <inertial>
+      <mass value="0.00534969344801"/>
+      <inertia ixx="4.28915289089e-07" ixy="1.72442164411e-08" ixz="1.21176871367e-08" iyy="1.47246096991e-06" iyz="2.81263965619e-08" izz="1.66008202818e-06"/>
+    </inertial>
   </link>
   <joint name="right_hip_link1_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0.00925 0 0.00376"/>
@@ -862,6 +1010,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 0" xyz="-0.003 -0.0121 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="right_hip_link2_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.0069 0 0.00376"/>
@@ -886,6 +1038,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 0" xyz="0.003 -0.0121 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="right_hip_link3_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.007 0 0.00376"/>
@@ -910,6 +1066,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 3.1415" xyz="0.0031 0.0116 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="right_hip_servo_link_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0.00925 0 0.00376"/>
@@ -933,6 +1093,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 3.1415" xyz="-0.005 0.0116 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.0022230447944"/>
+      <inertia ixx="3.6555778165e-08" ixy="-7.71664215792e-09" ixz="5.11021747293e-09" iyy="5.78426953066e-07" iyz="-4.996948437e-09" izz="5.54274196377e-07"/>
+    </inertial>
   </link>
   <joint name="right_hip_crossbrace1_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.01 -0.025"/>
@@ -954,6 +1118,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 1.57" xyz="0.0031 -0.0204 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="right_hip_crossbrace2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.01 -0.025"/>
@@ -975,6 +1143,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 -1.57" xyz="-0.0031 0.0199 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="right_twist_servo_holder1_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 0 -0.05"/>
@@ -999,6 +1171,10 @@
       <material name="blue"/>
       <origin rpy="1.57 3.1415 0" xyz="0.0188 0.00785 0.013"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="right_twist_servo_holder2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.02 0"/>
@@ -1020,6 +1196,10 @@
       <material name="blue"/>
       <origin rpy="-1.57 0 0" xyz="-0.035225 -0.00825 0.013"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="right_twist_shaft_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.009 -0.01 -0.0164"/>
@@ -1047,6 +1227,10 @@
       </material>
       <origin rpy="1.57 0 -1.57" xyz="0.01635 0.01325 0"/>
     </collision>
+    <inertial>
+      <mass value="0.00220748020606"/>
+      <inertia ixx="1.67451139919e-07" ixy="-3.63986353301e-09" ixz="-1.40695005264e-09" iyy="2.61155786728e-07" iyz="-2.86650798507e-09" izz="1.31389915947e-07"/>
+    </inertial>
   </link>
   <joint name="right_knee_servo_holder_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.01 0.008 -0.0062"/>
@@ -1068,6 +1252,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 -1.57" xyz="0.00855 0.01885 -0.0133"/>
     </collision>
+    <inertial>
+      <mass value="0.00567995432212"/>
+      <inertia ixx="4.45284193829e-07" ixy="1.28001520334e-08" ixz="2.55561641605e-09" iyy="1.55654980812e-06" iyz="2.78219449963e-08" izz="1.72923744084e-06"/>
+    </inertial>
   </link>
   <joint name="right_knee_servo_mount_joint" type="fixed">
     <origin rpy="0 0 0" xyz="-0.0099 0.008 -0.0062"/>
@@ -1089,6 +1277,10 @@
       <material name="blue"/>
       <origin rpy="1.57 0 1.57" xyz="-0.0075825 -0.0351 -0.0133"/>
     </collision>
+    <inertial>
+      <mass value="0.00534969344801"/>
+      <inertia ixx="4.28915289089e-07" ixy="1.72442164411e-08" ixz="1.21176871367e-08" iyy="1.47246096991e-06" iyz="2.81263965619e-08" izz="1.66008202818e-06"/>
+    </inertial>
   </link>
   <joint name="right_knee_link1_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -1113,6 +1305,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 1.57" xyz="0.0123 -0.003 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="right_knee_link2_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 -0.01615 0"/>
@@ -1137,6 +1333,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 1.57" xyz="0.0123 0.00291 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="right_knee_link3_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.005 -0.01615 0"/>
@@ -1161,6 +1361,10 @@
       <material name="blue"/>
       <origin rpy="0 1.57 -1.57" xyz="-0.0064 0.00291 0.003"/>
     </collision>
+    <inertial>
+      <mass value="0.002393391428"/>
+      <inertia ixx="3.73489451969e-08" ixy="1.78824691098e-13" ixz="-4.4067925908e-13" iyy="6.57084651424e-07" iyz="-5.48025074496e-09" izz="6.3699934435e-07"/>
+    </inertial>
   </link>
   <joint name="right_knee_servo_link_joint" type="revolute">
     <origin rpy="0 0 0" xyz="-0.005 0 0"/>
@@ -1184,6 +1388,10 @@
       <material name="blue"/>
       <origin rpy="0 -1.57 -1.57" xyz="-0.0064 -0.005 -0.053"/>
     </collision>
+    <inertial>
+      <mass value="0.0022230447944"/>
+      <inertia ixx="3.6555778165e-08" ixy="-7.71664215792e-09" ixz="5.11021747293e-09" iyy="5.78426953066e-07" iyz="-4.996948437e-09" izz="5.54274196377e-07"/>
+    </inertial>
   </link>
   <joint name="right_knee_crossbrace1_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.015 0.01 -0.025"/>
@@ -1205,6 +1413,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 -3.1415" xyz="0.02075 -0.0067 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="right_knee_crossbrace2_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.015 -0.01 -0.025"/>
@@ -1226,6 +1438,10 @@
       <material name="yellow"/>
       <origin rpy="1.57 0 0" xyz="-0.01925 0.0067 -0.0125"/>
     </collision>
+    <inertial>
+      <mass value="0.00290346925467"/>
+      <inertia ixx="1.58013284567e-07" ixy="-3.23354560759e-12" ixz="-5.68716610172e-11" iyy="5.6792853715e-07" iyz="1.87246583958e-09" izz="7.0346076507e-07"/>
+    </inertial>
   </link>
   <joint name="right_foot_joint" type="revolute">
     <origin rpy="0 0 0" xyz="0 0 -0.05"/>
@@ -1250,5 +1466,9 @@
       <material name="blue"/>
       <origin rpy="1.57 0 0" xyz="-0.03225 0.0143 -0.00725"/>
     </collision>
+    <inertial>
+      <mass value="0.0173122727319"/>
+      <inertia ixx="4.17884101816e-06" ixy="2.47751839763e-09" ixz="4.25331355401e-10" iyy="1.49537678998e-05" iyz="3.71899668287e-08" izz="1.12023343523e-05"/>
+    </inertial>
   </link>
 </robot>
